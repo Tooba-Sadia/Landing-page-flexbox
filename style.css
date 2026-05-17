@@ -1,0 +1,78 @@
+body{
+ font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin:0;
+ display: flex;
+ flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    font-size: 24px;
+}
+img{
+  max-width: 400px;
+}
+.header-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #0079a2;
+    color:aliceblue;  
+    height: auto;  
+    padding: 32px;
+}
+.header{
+    font-size: 32px;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    gap: 8px;
+}
+.blue-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #003a4d;
+    color: aliceblue;
+    align-items: center;
+}
+
+.image{
+    padding:32px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 32px;
+}
+button{
+    font-size: 16px;
+    padding:8px;
+    background: aliceblue;
+    color:  #003a4d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    background: #003a4d;
+    color:aliceblue;
+    height: 56px;
+}
